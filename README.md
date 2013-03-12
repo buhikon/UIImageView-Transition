@@ -11,15 +11,15 @@ Copy `UIImageView+Transition.h` and `UIImageView+Transition.m` to your project.
 Just use it like below:
 
 ```
-[self.imageView setNewImage:newImage];
+[yourImageView setNewImage:newImage];
 ```
 or
 ```
-[self.imageView setNewImage:newImage duration:1.0];
+[yourImageView setNewImage:newImage duration:1.0];
 ```
 or
 ```
-[self.imageView setNewImage:newImage duration:1.0 options:UIViewAnimationOptionTransitionCrossDissolve];
+[yourImageView setNewImage:newImage duration:1.0 options:UIViewAnimationOptionTransitionCrossDissolve];
 ```
 
 
