@@ -12,7 +12,13 @@ Just use it like below:
 
 ```
 [self.imageView setNewImage:newImage];
+```
+or
+```
 [self.imageView setNewImage:newImage duration:1.0];
+```
+or
+```
 [self.imageView setNewImage:newImage duration:1.0 options:UIViewAnimationOptionTransitionCrossDissolve];
 ```
 
