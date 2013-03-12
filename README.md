@@ -1,7 +1,7 @@
 UIImageView-Transition
 ======================
 
-UIImageView+Transition
+Do you want to show transition animation effect while changing images in your UIImageView?
 
 
 ## Usage
@@ -22,6 +22,20 @@ or
 [self.imageView setNewImage:newImage duration:1.0 options:UIViewAnimationOptionTransitionCrossDissolve];
 ```
 
+
+
+Here is the transition options:
+
+```
+    UIViewAnimationOptionTransitionNone
+    UIViewAnimationOptionTransitionFlipFromLeft
+    UIViewAnimationOptionTransitionFlipFromRight
+    UIViewAnimationOptionTransitionCurlUp
+    UIViewAnimationOptionTransitionCurlDown
+    UIViewAnimationOptionTransitionCrossDissolve
+    UIViewAnimationOptionTransitionFlipFromTop
+    UIViewAnimationOptionTransitionFlipFromBottom
+```
 
 
 ## License
