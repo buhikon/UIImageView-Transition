@@ -20,17 +20,13 @@
 }
 - (void)setNewImage:(UIImage *)newImage duration:(CGFloat)duration options:(UIViewAnimationOptions)options
 {
-    if( self.image == nil) {
-        self.image = newImage;
-    }
-    else {
-        [UIView transitionWithView:self
-                          duration:duration
-                           options:options
-                        animations:^{
-                            self.image = newImage;
-                        } completion:nil];
-    }
+
+    [UIView transitionWithView:self
+                      duration:duration
+                       options:options
+                    animations:^{
+                        self.image = newImage;
+                    } completion:nil];
 }
 
 @end
