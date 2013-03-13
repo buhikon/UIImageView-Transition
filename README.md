@@ -1,7 +1,7 @@
 UIImageView-Transition
 ======================
 
-Do you want to show transition animation effect while changing images in your UIImageView?
+Do you want to change images in your UIImageView with the animation?
 
 
 ## Usage
